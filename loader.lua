@@ -12,7 +12,7 @@ local COOLDOWN = 1.3
 -- ===== LOAD DB =====
 local DB = {}
 pcall(function()
-    local raw = game:HttpGet(DB_URL)
+    local raw = game:HttpGet(https://raw.githubusercontent.com/sixxgibran-cmyk/roblox-sambung-kata-dewa/kbbi.txt)
     for w in raw:gmatch("[^\r\n]+") do
         w = w:lower()
         if #w >= 2 then
