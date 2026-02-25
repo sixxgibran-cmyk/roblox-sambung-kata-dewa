@@ -5,7 +5,7 @@ local Players = game:GetService("Players")
 local LP = Players.LocalPlayer
 
 -- ===== CONFIG =====
-local DB_URL = "https://raw.githubusercontent.com/USERNAME/roblox-sambung-kata-dewa/main/kbbi.txt"
+local DB_URL = "https://raw.githubusercontent.com/sixxgibran-cmyk/roblox-sambung-kata-dewa/kbbi.txt"
 local ENABLED = false
 local COOLDOWN = 1.3
 
